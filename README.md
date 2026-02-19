@@ -102,16 +102,4 @@ If using virtual environment:
 The script logs: - Script start and end - Extraction completion -
 Flattening completion - Insert confirmation
 
-------------------------------------------------------------------------
-
-## Future Improvements
-
--   Incremental loading
--   Deduplication logic
--   COPY-based bulk insert
--   Docker support
--   Airflow orchestration
-
-------------------------------------------------------------------------
-
 Author: Saravana Kumar
