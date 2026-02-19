@@ -1,0 +1,1 @@
+CREATE TABLE user_activity_log ( id SERIAL PRIMARY KEY, user_id INTEGER, activity_data JSONB, created_at TIMESTAMP DEFAULT NOW() );

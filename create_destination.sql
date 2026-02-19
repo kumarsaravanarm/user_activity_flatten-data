@@ -1,0 +1,1 @@
+CREATE TABLE flattened_user_activity ( id SERIAL PRIMARY KEY, user_id INTEGER NOT NULL, device TEXT, city TEXT, country TEXT, action_type TEXT, action_target TEXT, action_timestamp TIMESTAMP, processed_at TIMESTAMP DEFAULT NOW() );
